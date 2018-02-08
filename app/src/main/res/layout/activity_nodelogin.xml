@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/nodelogin_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="5dp"
+        android:digits="0123456789"
+        android:hint="手机号："
+        android:inputType="phone"
+        android:singleLine="true"
+        app:layout_constraintBottom_toTopOf="@+id/guide01" />
+
+    <RelativeLayout
+        android:id="@+id/rl_"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        app:layout_constraintTop_toBottomOf="@+id/nodelogin_phone">
+
+        <EditText
+            android:id="@+id/nodelogin_sms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="验证码："
+            android:singleLine="true"
+            android:inputType="phone"
+            />
+
+        <Button
+            android:id="@+id/nodelogin_time"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:alpha="0.5"
+            android:background="@drawable/press_btn"
+            android:enabled="false"
+            android:text="接收"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+
+    <Button
+        android:text="登录"
+        android:textColor="#ffffff"
+        android:id="@+id/nodelogin_login"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/login_btn"
+        app:layout_constraintTop_toBottomOf="@+id/rl_" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guide01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.3"
+
+        />
+</android.support.constraint.ConstraintLayout>
