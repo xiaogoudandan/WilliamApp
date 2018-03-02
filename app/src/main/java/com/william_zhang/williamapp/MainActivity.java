@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.william_zhang.williamapp.mvp.activity.NodeLoginActivity;
+import com.william_zhang.williamapp.mvp.activity.SerializationActivity_A;
 import com.william_zhang.williamapp.mvp.activity.WebViewAcitivity;
 
 import butterknife.BindView;
@@ -29,6 +30,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.btn_webview:
                 forword(MainActivity.this, WebViewAcitivity.class);
+                break;
+            case R.id.btn_Serialization:
+                forword(MainActivity.this, SerializationActivity_A.class);
                 break;
         }
     }

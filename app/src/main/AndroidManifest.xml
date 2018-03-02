@@ -35,6 +35,8 @@
         </activity>
         <activity android:name=".mvp.activity.NodeLoginActivity" />
         <activity android:name=".mvp.activity.WebViewAcitivity" />
+        <activity android:name=".mvp.activity.SerializationActivity_A" />
+        <activity android:name=".mvp.activity.SerializationActivity_B" />
     </application>
 
 </manifest>

@@ -20,5 +20,10 @@
         android:layout_height="wrap_content"
         android:onClick="button"
         android:text="webview交互" />
-
+    <Button
+        android:id="@+id/btn_Serialization"
+        android:text="序列化"
+        android:onClick="button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 </LinearLayout>
