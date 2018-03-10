@@ -37,6 +37,7 @@
         <activity android:name=".mvp.activity.WebViewAcitivity" />
         <activity android:name=".mvp.activity.SerializationActivity_A" />
         <activity android:name=".mvp.activity.SerializationActivity_B" />
+        <activity android:name=".mvp.activity.EventActivity"/>
     </application>
 
 </manifest>

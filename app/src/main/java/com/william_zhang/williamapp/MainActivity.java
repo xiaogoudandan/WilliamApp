@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+import com.william_zhang.williamapp.mvp.activity.EventActivity;
 import com.william_zhang.williamapp.mvp.activity.NodeLoginActivity;
 import com.william_zhang.williamapp.mvp.activity.SerializationActivity_A;
 import com.william_zhang.williamapp.mvp.activity.WebViewAcitivity;
@@ -33,6 +34,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.btn_Serialization:
                 forword(MainActivity.this, SerializationActivity_A.class);
+                break;
+            case R.id.btn_event:
+                forword(MainActivity.this, EventActivity.class);
                 break;
         }
     }

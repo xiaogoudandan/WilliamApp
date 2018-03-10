@@ -26,4 +26,10 @@
         android:onClick="button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_event"
+        android:text="事件分发机制"
+        android:onClick="button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 </LinearLayout>
