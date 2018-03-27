@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-
+def dbflow_version = "4.2.4"
 android {
     compileSdkVersion 26
 
@@ -40,4 +40,10 @@ dependencies {
     compile 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
     compile 'com.squareup.okhttp3:logging-interceptor:3.8.1'
     compile 'com.zyao89:zloading:1.0.8'
+
+    annotationProcessor "com.github.Raizlabs.DBFlow:dbflow-processor:${dbflow_version}"
+    compile "com.github.Raizlabs.DBFlow:dbflow-core:${dbflow_version}"
+    compile "com.github.Raizlabs.DBFlow:dbflow:${dbflow_version}"
+    compile "com.github.Raizlabs.DBFlow:dbflow-rx2:${dbflow_version}"
+    compile "com.github.Raizlabs.DBFlow:dbflow-sqlcipher:${dbflow_version}"
 }

@@ -32,4 +32,11 @@
         android:onClick="button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_dbflow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="button"
+        android:text="dbflow数据库" />
 </LinearLayout>

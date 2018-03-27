@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+import com.william_zhang.williamapp.mvp.activity.DbflowActivity;
 import com.william_zhang.williamapp.mvp.activity.EventActivity;
 import com.william_zhang.williamapp.mvp.activity.NodeLoginActivity;
 import com.william_zhang.williamapp.mvp.activity.SerializationActivity_A;
@@ -37,6 +38,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.btn_event:
                 forword(MainActivity.this, EventActivity.class);
+                break;
+            case R.id.btn_dbflow:
+                forword(MainActivity.this, DbflowActivity.class);
                 break;
         }
     }
