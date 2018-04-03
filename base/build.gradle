@@ -46,4 +46,5 @@ dependencies {
     compile "com.github.Raizlabs.DBFlow:dbflow:${dbflow_version}"
     compile "com.github.Raizlabs.DBFlow:dbflow-rx2:${dbflow_version}"
     compile "com.github.Raizlabs.DBFlow:dbflow-sqlcipher:${dbflow_version}"
+    compile 'com.blankj:utilcode:1.12.6'
 }

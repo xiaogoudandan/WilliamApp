@@ -9,6 +9,7 @@ import android.widget.Button;
 
 import com.william_zhang.williamapp.mvp.activity.DbflowActivity;
 import com.william_zhang.williamapp.mvp.activity.EventActivity;
+import com.william_zhang.williamapp.mvp.activity.KeyBoardActivity;
 import com.william_zhang.williamapp.mvp.activity.NodeLoginActivity;
 import com.william_zhang.williamapp.mvp.activity.SerializationActivity_A;
 import com.william_zhang.williamapp.mvp.activity.WebViewAcitivity;
@@ -41,6 +42,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.btn_dbflow:
                 forword(MainActivity.this, DbflowActivity.class);
+                break;
+            case R.id.btn_keyboard:
+                forword(MainActivity.this, KeyBoardActivity.class);
                 break;
         }
     }

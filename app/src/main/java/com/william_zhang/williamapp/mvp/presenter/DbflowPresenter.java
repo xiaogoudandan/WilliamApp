@@ -37,7 +37,10 @@ public class DbflowPresenter extends BasePresenterImpl<DbflowContact.view> imple
 
     @Override
     public void delete(int id, String name) {
-        SQLite.delete().from(DbFlowModel.class).where(DbFlowModel_Table.id.eq(id), DbFlowModel_Table.name.eq(name)).execute();
+        SQLite.delete()
+                .from(DbFlowModel.class)
+                .where(DbFlowModel_Table.id.eq(id), DbFlowModel_Table.name.eq(name))
+                .execute();
         refreshRecycler();
     }
 }

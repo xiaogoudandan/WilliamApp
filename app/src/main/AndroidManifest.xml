@@ -39,6 +39,7 @@
         <activity android:name=".mvp.activity.SerializationActivity_B" />
         <activity android:name=".mvp.activity.EventActivity" />
         <activity android:name=".mvp.activity.DbflowActivity" />
+        <activity android:name=".mvp.activity.KeyBoardActivity" />
     </application>
 
 </manifest>
